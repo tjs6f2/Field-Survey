@@ -9,21 +9,21 @@
 import Foundation
 
 struct FieldSurvey {
-    let field: Animal
+    let classification: Animal
     let title: String
     let description: String
     let date: Date
     
-    init(field: Animal, title: String, description: String, date:Date) {
-        self.field = field
+    init(classification: Animal, title: String, description: String, date:Date) {
+        self.classification = classification
         self.title = title
         self.description = description
         self.date = date
     }
     
-    init?(fieldName: String, title: String, description: String, date: Date) {
-        if let field = Animal(rawValue: fieldName) {
-            self.init(field: field, title: title, description: description, date: date)
+    init?(classificationName: String, title: String, description: String, date: Date) {
+        if let classification = Animal(rawValue: classificationName) {
+            self.init(classification: classification, title: title, description: description, date: date)
         } else {
             return nil
         }

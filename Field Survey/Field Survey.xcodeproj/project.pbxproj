@@ -14,6 +14,8 @@
 		60476C032077DA9D00577D17 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 60476C022077DA9D00577D17 /* field_observations.json */; };
 		60476C052077DCB600577D17 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60476C042077DCB600577D17 /* Animal.swift */; };
 		60476C072077DEC800577D17 /* FieldSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60476C062077DEC800577D17 /* FieldSurvey.swift */; };
+		60476C092077E27100577D17 /* FieldSurvey.JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60476C082077E27100577D17 /* FieldSurvey.JSONParser.swift */; };
+		60476C0B2077EAA700577D17 /* FieldSurveyJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60476C0A2077EAA700577D17 /* FieldSurveyJSONLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		60476C022077DA9D00577D17 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
 		60476C042077DCB600577D17 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		60476C062077DEC800577D17 /* FieldSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurvey.swift; sourceTree = "<group>"; };
+		60476C082077E27100577D17 /* FieldSurvey.JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurvey.JSONParser.swift; sourceTree = "<group>"; };
+		60476C0A2077EAA700577D17 /* FieldSurveyJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyJSONLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				60476C022077DA9D00577D17 /* field_observations.json */,
 				60476C042077DCB600577D17 /* Animal.swift */,
 				60476C062077DEC800577D17 /* FieldSurvey.swift */,
+				60476C082077E27100577D17 /* FieldSurvey.JSONParser.swift */,
+				60476C0A2077EAA700577D17 /* FieldSurveyJSONLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +158,8 @@
 			files = (
 				60476BEB2077D4EC00577D17 /* AppDelegate.swift in Sources */,
 				60476C052077DCB600577D17 /* Animal.swift in Sources */,
+				60476C092077E27100577D17 /* FieldSurvey.JSONParser.swift in Sources */,
+				60476C0B2077EAA700577D17 /* FieldSurveyJSONLoader.swift in Sources */,
 				60476C072077DEC800577D17 /* FieldSurvey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
