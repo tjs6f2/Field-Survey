@@ -11,6 +11,7 @@
 		60476BF02077D4EC00577D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60476BEE2077D4EC00577D17 /* Main.storyboard */; };
 		60476BF22077D4EE00577D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60476BF12077D4EE00577D17 /* Assets.xcassets */; };
 		60476BF52077D4EE00577D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60476BF32077D4EE00577D17 /* LaunchScreen.storyboard */; };
+		60476C032077DA9D00577D17 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 60476C022077DA9D00577D17 /* field_observations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		60476BF12077D4EE00577D17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60476BF42077D4EE00577D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60476BF62077D4EE00577D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60476C022077DA9D00577D17 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		60476BE92077D4EC00577D17 /* Field Survey */ = {
 			isa = PBXGroup;
 			children = (
+				60476BFF2077D91200577D17 /* Model */,
 				60476BEA2077D4EC00577D17 /* AppDelegate.swift */,
 				60476BEE2077D4EC00577D17 /* Main.storyboard */,
 				60476BF12077D4EE00577D17 /* Assets.xcassets */,
@@ -59,6 +62,14 @@
 				60476BF62077D4EE00577D17 /* Info.plist */,
 			);
 			path = "Field Survey";
+			sourceTree = "<group>";
+		};
+		60476BFF2077D91200577D17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60476C022077DA9D00577D17 /* field_observations.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60476BF52077D4EE00577D17 /* LaunchScreen.storyboard in Resources */,
+				60476C032077DA9D00577D17 /* field_observations.json in Resources */,
 				60476BF22077D4EE00577D17 /* Assets.xcassets in Resources */,
 				60476BF02077D4EC00577D17 /* Main.storyboard in Resources */,
 			);
